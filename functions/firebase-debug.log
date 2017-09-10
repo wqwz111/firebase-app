@@ -1,0 +1,64 @@
+[debug] [2017-09-09T03:22:35.902Z] ----------------------------------------------------------------------
+[debug] [2017-09-09T03:22:35.905Z] Command:       /usr/bin/nodejs /usr/bin/firebase deploy --only functions:qiniuUpToken
+[debug] [2017-09-09T03:22:35.905Z] CLI Version:   3.9.2
+[debug] [2017-09-09T03:22:35.906Z] Platform:      linux
+[debug] [2017-09-09T03:22:35.906Z] Node Version:  v7.10.1
+[debug] [2017-09-09T03:22:35.906Z] Time:          Sat Sep 09 2017 11:22:35 GMT+0800 (CST)
+[debug] [2017-09-09T03:22:35.906Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-09T03:22:35.917Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-09T03:22:35.917Z] > authorizing via signed-in user
+[debug] [2017-09-09T03:22:35.919Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/dream-c5c23  
+ Sat Sep 09 2017 11:22:35 GMT+0800 (CST)
+[debug] [2017-09-09T03:22:37.141Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-09T03:22:37.144Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/dream-c5c23/tokens  
+ Sat Sep 09 2017 11:22:37 GMT+0800 (CST)
+[debug] [2017-09-09T03:22:39.273Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'dream-c5c23'...
+[info] 
+[info] i  deploying functions
+[debug] [2017-09-09T03:22:41.491Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "dependencies": {
+    "firebase-admin": "~4.2.1",
+    "firebase-functions": "^0.5.7",
+    "qiniu": "^7.0.8"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[info] i  runtimeconfig: ensuring necessary APIs are enabled...
+[debug] [2017-09-09T03:22:41.492Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/dream-c5c23?view=CONSUMER_VIEW  
+ Sat Sep 09 2017 11:22:41 GMT+0800 (CST)
+[debug] [2017-09-09T03:22:41.493Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/dream-c5c23?view=CONSUMER_VIEW  
+ Sat Sep 09 2017 11:22:41 GMT+0800 (CST)
+[debug] [2017-09-09T03:24:49.466Z] ----------------------------------------------------------------------
+[debug] [2017-09-09T03:24:49.468Z] Command:       /usr/bin/nodejs /usr/bin/firebase deploy --only functions
+[debug] [2017-09-09T03:24:49.469Z] CLI Version:   3.9.2
+[debug] [2017-09-09T03:24:49.469Z] Platform:      linux
+[debug] [2017-09-09T03:24:49.469Z] Node Version:  v7.10.1
+[debug] [2017-09-09T03:24:49.469Z] Time:          Sat Sep 09 2017 11:24:49 GMT+0800 (CST)
+[debug] [2017-09-09T03:24:49.469Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-09T03:24:49.480Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-09T03:24:49.480Z] > authorizing via signed-in user
+[debug] [2017-09-09T03:24:49.482Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/dream-c5c23  
+ Sat Sep 09 2017 11:24:49 GMT+0800 (CST)
+[debug] [2017-09-09T03:24:50.997Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-09T03:24:50.999Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/dream-c5c23/tokens  
+ Sat Sep 09 2017 11:24:50 GMT+0800 (CST)
+[debug] [2017-09-09T03:24:52.024Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-09T03:34:47.074Z] ----------------------------------------------------------------------
+[debug] [2017-09-09T03:34:47.077Z] Command:       /usr/bin/nodejs /usr/bin/firebase deploy --only functions
+[debug] [2017-09-09T03:34:47.078Z] CLI Version:   3.10.1
+[debug] [2017-09-09T03:34:47.078Z] Platform:      linux
+[debug] [2017-09-09T03:34:47.078Z] Node Version:  v7.10.1
+[debug] [2017-09-09T03:34:47.078Z] Time:          Sat Sep 09 2017 11:34:47 GMT+0800 (CST)
+[debug] [2017-09-09T03:34:47.078Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-09T03:34:47.089Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-09T03:34:47.089Z] > authorizing via signed-in user
+[debug] [2017-09-09T03:34:47.091Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/dream-c5c23  
+ Sat Sep 09 2017 11:34:47 GMT+0800 (CST)
